@@ -13,11 +13,12 @@ const app=express()
 connectDb();
 app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(cors(
-    { origin: ["https://deploy-mern-1whq.vercel.app"],
+    { origin: ["https://proj-ecomm.vercel.app"],
      methods: ["POST", "GET"],
      credentials: true
     }
     ));
+mongoose.connect('mongodb+srv://admin:admin@cluster0.mcu7pne.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0');
 app.use(express.json())
 app.use(morgan('dev'))
 app.use(express.urlencoded({ extended: true }));
