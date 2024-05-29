@@ -1,0 +1,94 @@
+
+
+body {
+    background-color: rgba(249, 249, 249, 0.991); /* Light gray */
+}
+
+/* Body font */
+body {
+    font-family: Arial, sans-serif; /* Specify a fallback font family */
+}
+
+/* Remove margin and padding from the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default text color */
+body {
+    color: #333; /* Dark gray */
+}
+
+/* Set default link color */
+body a {
+    color: #007bff; /* Blue */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Apply hover effect to links */
+
+
+
+.navbar {
+    background-color: #584fd6 !important;/* Dark teal */
+    border-bottom-right-radius: 20px;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    color: #ef9458; /* Orange */
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: none;
+    
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #ff6600; /* Dark gray */
+    font-weight: 500;
+}
+
+
+/* Active navbar link */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Disabled navbar link */
+.navbar-nav .nav-link.disabled {
+    color: #9e9e9e; /* Light gray */
+}
+
+/* Navbar toggler icon color */
+.navbar-toggler-icon {
+    background-color: #c5481a; /* White */
+    border-radius: 5px;
+}
+
+/* Navbar toggler button color */
+.navbar-toggler {
+    border: none;
+}
+
+
+/* Navbar toggler button outline */
+.navbar-toggler:focus {
+    outline: none;
+}
+/* Custom CSS for NavLink in Navbar */
+
+.nav-item .nav-link {
+    /* Add custom styles for the NavLink */
+    /* For example: */
+    color: #060606; /* Dark gray */
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-item .nav-link:hover {
+    /* Add custom styles for hover effect */
+    /* For example: */
+    color: #ff6600; /* Orange */
+}

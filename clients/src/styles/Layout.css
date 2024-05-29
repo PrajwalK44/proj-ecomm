@@ -1,0 +1,40 @@
+/* Layout.css */
+
+/* Light Theme */
+body.light {
+    --background-color: #fff;
+    --text-color: #000;
+    --card-background: #f8f9fa;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    --background-color: #333;
+    --text-color: #fff;
+    --card-background: #444;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .card {
+    background-color: var(--card-background);
+  }
+  
+  /* Additional styles */
+  .layout {
+    transition: all 0.3s ease;
+  }
+  
+  .layout.light {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .layout.dark {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
